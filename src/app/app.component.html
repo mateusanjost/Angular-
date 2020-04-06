@@ -1,0 +1,24 @@
+
+
+<nav class="nav"  style="background: black;height: 4em;">
+  <a class="navbar-brand" routerLink="/pag1" routerLinkActive="active">Página 1</a>
+  <a class="navbar-brand" routerLink="/pag2" routerLinkActive="active">Página 2</a>
+  <a class="navbar-brand" routerLink="/pag3" routerLinkActive="active">Página 3</a>
+  <a class="navbar-brand" routerLink="/pag4" routerLinkActive="active">Página 4</a>
+</nav>
+<router-outlet></router-outlet>
+<br><br><hr>
+<div class="jumbotron" style="background-image: url(https://midias.agazeta.com.br/2020/03/11/coronavirus-205131.jpg); background-size: 50%; background-repeat: no-repeat; background-position: right; background-blend-mode: difference;">
+  <h1 class="display-4">Pandemia</h1>
+  <p class="lead">Atualizando dados.....</p>
+  <hr class="my-4">
+  <p>Exemplo...</p>
+  <a class="btn btn-primary btn-lg" role="button" onclick="alert('Em desenvolvimento');">Saiba mais.</a>
+</div>
+<hr>
+
+
+
+<h2>DATA TABLE COM FILTRO</h2>
+<table datatable [dtOptions]="dtOptions" class="row-border hover"></table>
+
